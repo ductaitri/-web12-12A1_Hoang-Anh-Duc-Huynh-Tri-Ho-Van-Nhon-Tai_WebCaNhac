@@ -1,0 +1,5 @@
+- [x] Remove max-width from #memberCarousel in style.css to allow larger carousel size
+- [x] Set .member img height to 30vh in style.css
+- [x] Change .member h3 color to #fff for better contrast
+- [x] Change .member p color to #fff for better contrast
+- [x] Center align the items inside the Bootstrap carousel (e.g., vertically center image and text in .member divs)
