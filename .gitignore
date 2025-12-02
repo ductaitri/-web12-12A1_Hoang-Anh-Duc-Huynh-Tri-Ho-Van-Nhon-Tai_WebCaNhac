@@ -1,0 +1,34 @@
+ # macOS
+ .DS_Store
+ Thumbs.db
+
+ # Node
+ node_modules/
+ npm-debug.log*
+ yarn-debug.log*
+ yarn-error.log*
+
+ # Lockfiles
+ package-lock.json
+ yarn.lock
+
+ # IDE
+ .vscode/
+ .idea/
+
+ # Environment
+ .env
+ .env.local
+
+ # Logs
+ *.log
+
+ # Build outputs
+ /dist/
+ /build/
+
+ # Temp
+ *.tmp
+ *.bak
+ *~
+ *.swp
