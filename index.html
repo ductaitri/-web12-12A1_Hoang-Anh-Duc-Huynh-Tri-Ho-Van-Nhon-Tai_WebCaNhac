@@ -4,150 +4,135 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zombie V4 Band</title>
-<link rel="stylesheet" href="style.css">
-<!-- Bootstrap 4.6 + jQuery + Popper (ổn định) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!DOCTYPE html>
+<html lang="vi">
 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zombie V4 Band</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <!-- Navbar -->
-<div class="navbar">
-<a href="#home">Trang chủ</a>
-<a href="#about">Giới thiệu</a>
-<a href="#music">Âm nhạc</a>
-<a href="#shows">Lịch diễn</a>
-<a href="#contact">Liên hệ</a>
-</div>
+<nav class="navbar">
+	<a href="#home">Trang chủ</a>
+	<a href="#about">Giới thiệu</a>
+	<a href="#music">Âm nhạc</a>
+	<a href="#shows">Lịch diễn</a>
+	<a href="#contact">Liên hệ</a>
+</nav>
 
 <!-- Header -->
 <header id="home" class="header">
-<h1>Zombie V4</h1>
-<p>🔥 Rock the Night — Feel the Vibe 🔥</p>
-<img src="BUCTUONG AVT1.jpg">
+	<h1>Zombie V4</h1>
+	<p>🔥 Rock the Night — Feel the Vibe 🔥</p>
+	<img src="BUCTUONG AVT1.jpg" alt="Avatar">
 </header>
 
 <!-- About Section -->
 <section id="about" class="about">
-<h2>Giới thiệu về Zombie V4</h2>
-<p>
-<strong>Zombie V4</strong> là ban nhạc rock trẻ trung đến từ Việt Nam, được thành lập vào năm 2021.
-Chúng tôi mang đến năng lượng mạnh mẽ, âm thanh bùng nổ và những ca khúc truyền cảm hứng.
-Với sự kết hợp giữa rock hiện đại và âm hưởng cổ điển, Zombie V4 đã và đang tạo dấu ấn riêng trong lòng
-người yêu nhạc.
-</p>
-<div id="memberCarousel" class="carousel slide" data-ride="carousel">
+	<h2>Giới thiệu về Zombie V4</h2>
+	<p>
+		<strong>Zombie V4</strong> là ban nhạc rock trẻ trung đến từ Việt Nam, được thành lập vào năm 2021. Chúng tôi mang đến năng lượng mạnh mẽ, âm thanh bùng nổ và những ca khúc truyền cảm hứng. Với sự kết hợp giữa rock hiện đại và âm hưởng cổ điển, Zombie V4 đã và đang tạo dấu ấn riêng trong lòng người yêu nhạc.
+	</p>
 
-<ol class="carousel-indicators">
-<li data-target="#memberCarousel" data-slide-to="0" class="active"></li>
-<li data-target="#memberCarousel" data-slide-to="1"></li>
-<li data-target="#memberCarousel" data-slide-to="2"></li>
-</ol>
+	<div id="memberCarousel" class="carousel slide" data-bs-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-bs-target="#memberCarousel" data-bs-slide-to="0" class="active"></li>
+			<li data-bs-target="#memberCarousel" data-bs-slide-to="1"></li>
+			<li data-bs-target="#memberCarousel" data-bs-slide-to="2"></li>
+		</ol>
 
-<div class="carousel-inner">
+		<div class="carousel-inner">
+			<!-- Slide 1 -->
+			<div class="carousel-item active">
+				<div class="member">
+					<img src="buctuong--tuanhung.png" alt="Vocal">
+					<h3>Tuấn Hưng</h3>
+					<p>Giọng ca chính - người truyền năng lượng cho khán giả.</p>
+				</div>
+			</div>
 
-<!-- Slide 1 -->
-<div class="carousel-item active">
-<div class="member">
-<img src="buctuong--tuanhung.png" alt="Vocal">
-<h3>Tuấn Hưng</h3>
-<p>Giọng ca chính - người truyền năng lượng cho khán giả.</p>
-</div>
-</div>
+			<!-- Slide 2 -->
+			<div class="carousel-item">
+				<div class="member">
+					<img src="manhtuan.jpg" alt="Guitarist">
+					<h3>Long “Vibe” Nguyễn</h3>
+					<p>Guitar Lead - solo bùng cháy.</p>
+				</div>
+			</div>
 
-<!-- Slide 2 -->
-<div class="carousel-item">
-<div class="member">
-<img src="manhtuan.jpg"Guitarist">
-<h3>Long “Vibe” Nguyễn</h3>
-<p>Guitar Lead - solo bùng cháy.</p>
-</div>
-</div>
+			<!-- Slide 3 -->
+			<div class="carousel-item">
+				<div class="member">
+					<img src="tranlapbuctuong.jpg" alt="Drummer">
+					<h3>Minh “Pulse” Lê</h3>
+					<p>Trống - linh hồn nhịp điệu.</p>
+				</div>
+			</div>
+		</div>
 
-<!-- Slide 3 -->
-<div class="carousel-item">
-<div class="member">
-<img src="tranlapbuctuong.jpg" alt="Drummer">
-<h3>Minh “Pulse” Lê</h3>
-<p>Trống - linh hồn nhịp điệu.</p>
-</div>
-</div>
-
-</div>
-
-<a class="carousel-control-prev" href="#memberCarousel" role="button" data-slide="prev">
-<span class="carousel-control-prev-icon"></span>
-</a>
-
-<a class="carousel-control-next" href="#memberCarousel" role="button" data-slide="next">
-<span class="carousel-control-next-icon"></span>
-</a>
-
-</div>
-
-
+		<button class="carousel-control-prev" type="button" data-bs-target="#memberCarousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#memberCarousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
 </section>
 
 <!-- Music Section -->
 <section id="music" class="services">
-<h2>Âm nhạc của chúng tôi</h2>
-<div class="service-item">
-<h3>💿 Album “Rise from the Ashes”</h3>
-<p>
-Ra mắt năm 2024, album đầu tay của Zombie V4 gồm 10 ca khúc gắn liền với chủ đề tái sinh, đam mê và tuổi
-trẻ.
-Các bài hát nổi bật: <strong>“Fire Inside”, “Burn Again”, “Never Fade”</strong>.
-</p>
-</div>
-<div class="service-item">
-<h3>🎸 Phong cách âm nhạc</h3>
-<p>
-Zombie V4 kết hợp giữa <em>Alternative Rock</em>, <em>Post-Grunge</em> và <em>Indie</em>.
-Chúng tôi muốn khán giả không chỉ nghe nhạc — mà còn <strong>cảm nhận năng lượng sống</strong> trong
-từng giai điệu.
-</p>
-</div>
-<div class="service-item">
-<h3>🎧 Trên nền tảng số</h3>
-<p>
-Bạn có thể nghe nhạc của Zombie V4 trên các nền tảng:
-<a href="#">Spotify</a>, <a href="#">Apple Music</a>, và <a href="#">YouTube</a>.
-</p>
-</div>
+	<h2>Âm nhạc của chúng tôi</h2>
+	<div class="service-item">
+		<h3>💿 Album “Rise from the Ashes”</h3>
+		<p>Ra mắt năm 2024, album đầu tay của Zombie V4 gồm 10 ca khúc gắn liền với chủ đề tái sinh, đam mê và tuổi trẻ. Các bài hát nổi bật: <strong>“Fire Inside”, “Burn Again”, “Never Fade”</strong>.</p>
+	</div>
+
+	<div class="service-item">
+		<h3>🎸 Phong cách âm nhạc</h3>
+		<p>Zombie V4 kết hợp giữa <em>Alternative Rock</em>, <em>Post-Grunge</em> và <em>Indie</em>. Chúng tôi muốn khán giả không chỉ nghe nhạc — mà còn cảm nhận năng lượng sống trong từng giai điệu.</p>
+	</div>
+
+	<div class="service-item">
+		<h3>🎧 Trên nền tảng số</h3>
+		<p>Bạn có thể nghe nhạc của Zombie V4 trên các nền tảng: <a href="#">Spotify</a>, <a href="#">Apple Music</a>, và <a href="#">YouTube</a>.</p>
+	</div>
 </section>
 
 <!-- Shows Section -->
 <section id="shows" class="shows">
-<h2>Lịch diễn sắp tới</h2>
-<ul>
-<li><strong>15/11/2025</strong> — Hard Rock Café, TP. Hồ Chí Minh</li>
-<li><strong>05/12/2025</strong> — Lễ hội Âm nhạc Rock Storm, Hà Nội</li>
-<li><strong>20/12/2025</strong> — Đại học Bách Khoa Đà Nẵng</li>
-</ul>
+	<h2>Lịch diễn sắp tới</h2>
+	<ul>
+		<li><strong>15/11/2025</strong> — Hard Rock Café, TP. Hồ Chí Minh</li>
+		<li><strong>05/12/2025</strong> — Lễ hội Âm nhạc Rock Storm, Hà Nội</li>
+		<li><strong>20/12/2025</strong> — Đại học Bách Khoa Đà Nẵng</li>
+	</ul>
 </section>
 
 <!-- Contact Section -->
 <section id="contact" class="contact">
-<h2>Liên hệ với chúng tôi</h2>
-<p>Email: <a href="mailto:zombiev4.band@gmail.com">zombiev4.band@gmail.com</a></p>
-<p>Hotline: +84 912 345 678</p>
-<p>Theo dõi chúng tôi:
-<a href="#">Facebook</a> |
-<a href="#">Instagram</a> |
-<a href="#">TikTok</a>
-</p>
+	<h2>Liên hệ với chúng tôi</h2>
+	<p>Email: <a href="mailto:zombiev4.band@gmail.com">zombiev4.band@gmail.com</a></p>
+	<p>Hotline: +84 912 345 678</p>
+	<p>Theo dõi chúng tôi: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">TikTok</a></p>
 </section>
 
 <!-- Footer -->
 <footer class="footer">
-<p>&copy; 2025 Zombie V4. All rights reserved.</p>
+	<p>&copy; 2025 Zombie V4. All rights reserved.</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
 </html>
+<p>Theo dõi chúng tôi:
