@@ -1,0 +1,58 @@
+/* Reset cơ bản */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #0e0e0e;
+	color: #f0f0f0;
+	line-height: 1.6;
+}
+
+/* Navbar (bootstrap handles core layout) */
+.navbar-brand { font-weight: 700; }
+.navbar .nav-link { color: rgba(255,255,255,0.9); }
+.navbar .nav-link:hover { color: #ff6b6b; }
+
+/* Header / Hero */
+.header {
+	min-height: 48vh;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(rgba(10,10,10,0.55), rgba(10,10,10,0.55)), url('background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.header .display-4 { letter-spacing: 2px; }
+.header .lead { color: #ff6b6b; }
+
+/* About */
+.about { padding-top: 3rem; padding-bottom: 3rem; color: #eee; }
+.about h2 { color: #ff6b6b; margin-bottom: 1rem; }
+
+.member { background: #171717; border-radius: 10px; overflow: hidden; }
+.member img { width: 100%; height: auto; display: block; }
+
+/* Services / Music */
+.services { padding: 3rem 0; }
+.service-item { border-radius: 8px; }
+
+/* Shows */
+.shows { padding: 3rem 0; }
+
+/* Contact */
+.contact { padding: 3rem 0; }
+.contact a { color: #ff6b6b; }
+
+/* Footer */
+.footer { background: #050505; color: #9a9a9a; }
+
+/* Animations */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(30px);} to { opacity: 1; transform: translateY(0);} }
+
+/* Carousel tweaks */
+.carousel-caption { background: rgba(0,0,0,0.35); padding: 10px; border-radius: 6px; }
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+	.header .display-4 { font-size: 2rem; }
+}
